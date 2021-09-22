@@ -1,0 +1,21 @@
+<?php
+
+$nama = "Nauval Rifqi Faiq";
+$nim = 192520019;
+$alamat = "Magelang";
+$email = "naufalrifqifaiq99@gmail.com";
+$minat = "Desain Grafis";
+
+echo "<h2>Data Diri</h2>";
+echo "<br>";
+echo "Nama : ".$nama;
+echo "<br>";
+echo "Nim : ".$nim;
+echo "<br>";
+echo "Alamat : ".$alamat;
+echo "<br>";
+echo "Email : ".$email;
+echo "<br>";
+echo "Minat : ".$minat;
+
+?>
