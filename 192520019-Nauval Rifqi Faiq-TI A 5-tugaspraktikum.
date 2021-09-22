@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>tugas</title>
+	</head>
+	<style>
+    .container {
+        width: 1000px;
+        height: 500px;
+        border: 2px solid #000000;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+</style>
+	<body>
+		<img src="nofal.jpg">
+	    <?php
+		$nama = "Nauval Rifqi Faiq";
+        $nim = 192520019;
+        $alamat = "Magelang";
+        $email = "naufalrifqifaiq99@gmail.com";
+        $minat = "Desain Grafis";
+		?>
+		<h2>Biodata Diri</h2>
+		<p>Nama : <?php echo $nama;?></p>
+		<p>Nim : <?php echo $nim;?></p>
+		<p>Alamat : <?php echo $alamat;?></p>
+		<p>Email : <?php echo $email;?></p>
+		<p>Minat : <?php echo $minat;?></p>
+	</body>
+</html>	
